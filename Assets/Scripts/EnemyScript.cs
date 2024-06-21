@@ -23,6 +23,6 @@ public class EnemyScript : MonoBehaviour
 
     public void GetDamage(int Damage)
     {
-        this.hp -= Damage;
+        hp -= Damage;
     }
 }
